@@ -1764,6 +1764,21 @@ a:focus {
     color: #ffffff;
 }
 
+.logo-text {
+  font-size: 50px;
+}
+
+@media (max-width: 768px) {
+  .logo-text {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo-text {
+    font-size: 22px;
+  }
+}
 @media (max-width: 768px) {
     .footer .copyright p,
     .footer .copyright .col-md-6:last-child p {
